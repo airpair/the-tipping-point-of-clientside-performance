@@ -1,6 +1,6 @@
 Web development is tricky. There is a myriad of goals to strive for, like an effective user experience, unique features and components, nifty buttons and impressive overlays, a responsive/adaptive layout, browser/device compatibility, SEO, accessibility, style guide consistency... No matter the consequence, businesses always want to have the latest and greatest for their sites. 
 
-Since websites have such diffuse goals, it is very challenging to ensure optimum performance. Just think about how much code gets downloaded to the browser - as the code for all those goals is combined.
+Since those goals are developed in parallel and sometimes conflictingly, it is very challenging to ensure optimum performance. Just think about how much code gets downloaded to the browser - as the code for all those goals is combined.
 
 Delivering all your code during the page load can be very cumbersome for your page performance, and can spike your **Speed Index** way up (which is **bad**: the higher your Speed Index is, the worse your page is performing). If you are not familiar with the Speed Index, think of it like a consistent score of combined measurements to assess the performance of a webpage. For more information, check out the [WebPageTest.org Documentation](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index).
 
