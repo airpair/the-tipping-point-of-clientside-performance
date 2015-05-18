@@ -70,13 +70,13 @@ In order to optimize the CRP, think about this: everything that isn't critical e
 
 ### 1. Moving content to below the fold
 
-**Search for less important HTML/images/media content which is above the fold and move it to below the fold.**
+ > **Search for less important HTML/images/media content which is above the fold and move it to below the fold.**
 
 For instance: let's say your page has a 100 KB tall vertical banner on the left side, but only half of it appears above the fold, which makes it somewhat useless for the above the fold experience. By pushing it down a little bit (so that none of it appears above the fold for a typical 1024x768 resolution) you will have effectively moved it to below the fold, which means the browser no longer needs to wait for this image download to be finished in order to render the above the fold content. The browser will still download it, but not during the above the fold rendering. This means that now the critical content of the page isn't depending on that banner anymore
 
 ### 2. Lazy-loading features
 
-**Search for lazy-loadable features on the page load, and replace their immediate loading with hooks/listeners that will load them upon condition.**
+ > **Search for lazy-loadable features on the page load, and replace their immediate loading with hooks/listeners that will load them upon condition.**
 
 For instance: your page might have an overlay that is only displayed after the user presses a button. Instead of downloading the HTML, CSS, or JavaScript for the overlay on the page-load time, you can just add a click listener on this button that will download the HTML, CSS, or JavaScript for the feature only after the user presses this button for the first time. This can be accomplished in a few different ways, but I particularly recommend [Webpack](http://webpack.github.io).
 
@@ -84,7 +84,9 @@ P.S.: If you are developing a responsive page, this step is very important since
 
 ### 3. Rendering non-SEO-critical content on the client-side
 
-**Search for non-SEO-critical content which is being rendered server-side during the page load, and remove it from the first page response. Now, add a JavaScript listener after the DOM is ready that will render the feature on the client-side.**
+ > **Search for non-SEO-critical content which is being rendered server-side during the page load, and remove it from the first page response.**
+ 
+ > **Now, add a JavaScript listener after the DOM is ready that will render the feature on the client-side.**
 
 For instance: your page might have some section for user comments that you don't want to be indexed by search engine bots. Instead of including the HTML comments on the first page response, you may just embed a JSON array with the comments data on the page, under a ```<script id="commentsData" type="application/json">``` tag. This technique is also known as JSON bootstrapping.
 
