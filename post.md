@@ -59,7 +59,7 @@ Something to keep in mind is that doing client-side rendering on a feature may n
   - Server-side-rendered content: more critical and more SEO value
   - Client-side-rendered content: less critical and less or none SEO value
 
-## The tipping point of performance
+## Optimizing the CRP
 
 Quick recap: 
 
