@@ -1,4 +1,4 @@
-Web development is tricky. There is a myriad of parallel goals to strive for, like an effective user experience, unique features and components, nifty buttons and impressive overlays, responsive/adaptive layout, browser/device compatibility, SEO, accessibility, style guide consistency... Business always goes comprehensively. 
+Web development is tricky. There is a myriad of goals to strive for, like an effective user experience, unique features and components, nifty buttons and impressive overlays, responsive/adaptive layout, browser/device compatibility, SEO, accessibility, style guide consistency... Business always goes comprehensively. 
 
 Still, web sites being such diffuse products, it is very challenging to ensure an optimum performance. Just think about how much code gets downloaded to the browser - as the code for all those goals gets combined. 
 
@@ -10,7 +10,7 @@ The good news is that optimizing such scenarios is not rocket science. All you n
 
 Putting it simply, the Critical Rendering Path or CRP is the sequence of steps the browser takes to render the critical content of a webpage (we will go through the definition of critical content very soon). In other terms, the CRP is the browser's own workflow to process all the critical HTML, CSS, JavaScript, images and media content.
 
-One of the biggest challenges in web development is keeping your page's CRP as minimal as possible. This is your best bet to ensure a good page load time and achieve a better Speed Index. Over the next sessions, we will discuss some ways to minimize the CRP.
+One of the biggest challenges in web development is keeping your page's CRP as minimal as possible. This is your best bet to ensure a good page load time and achieve a better Speed Index. Over the next sections, we will discuss some ways to minimize the CRP.
 
 For more information about the CRP, check out [Patrick Sexton's article](https://www.feedthebot.com/pagespeed/critical-render-path.html) and the thorough [Ilya Grigorik's Website Performance Optimization course at Udacity](https://www.udacity.com/course/website-performance-optimization--ud884).
 
