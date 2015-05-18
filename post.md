@@ -1,20 +1,20 @@
-Web development is tricky. There is a myriad of goals to strive for, like an effective user experience, unique features and components, nifty buttons and impressive overlays, responsive/adaptive layout, browser/device compatibility, SEO, accessibility, style guide consistency... Business always goes comprehensively. 
+Web development is tricky. There is a myriad of goals to strive for, like an effective user experience, unique features and components, nifty buttons and impressive overlays, a responsive/adaptive layout, browser/device compatibility, SEO, accessibility, style guide consistency... No matter the consequence, businesses always want to have the latest and greatest for their sites. 
 
-Still, web sites being such diffuse products, it is very challenging to ensure an optimum performance. Just think about how much code gets downloaded to the browser - as the code for all those goals gets combined. 
+Since websites have such diffuse goals, it is very challenging to ensure optimum performance. Just think about how much code gets downloaded to the browser - as the code for all those goals is combined.
 
-Delivering all your code during the page load can be very cumbersome for your page performance and drag your **Speed Index** way up (which is **bad**: the higher your Speed Index is, the worse your page is performing). If you are not familiar with Speed Index, think of it like a consistent score of combined measurements to assess the performance of a webpage. For more information, check out the [WebPageTest.org Documentation](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index).
+Delivering all your code during the page load can be very cumbersome for your page performance, and can spike your **Speed Index** way up (which is **bad**: the higher your Speed Index is, the worse your page is performing). If you are not familiar with the Speed Index, think of it like a consistent score of combined measurements to assess the performance of a webpage. For more information, check out the [WebPageTest.org Documentation](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index).
 
-The good news is that optimizing such scenarios is not rocket science. All you need to do is being savvy about how to optimize the **Critical Rendering Path**. Whaat? Let me explain.
+The good news is that optimizing such scenarios is not rocket science. All you need to do is be savvy about how to optimize the Critical Rendering Path. Whaat? Let me explain.
 
 ## The Critical Rendering Path
 
-Putting it simply, the Critical Rendering Path or CRP is the sequence of steps the browser takes to render the critical content of a webpage (we will go through the definition of critical content very soon). In other terms, the CRP is the browser's own workflow to process all the critical HTML, CSS, JavaScript, images and media content.
+Putting it simply, the Critical Rendering Path (or CRP) is the sequence of steps the browser takes to render the critical content of a webpage (we will go through the definition of critical content soon). In other terms, the CRP is the browser's own workflow to process all the critical HTML, CSS, JavaScript, images, and media content.
 
-One of the biggest challenges in web development is keeping your page's CRP as minimal as possible. This is your best bet to ensure a good page load time and achieve a better Speed Index. Over the next sections, we will discuss some ways to minimize the CRP.
+One of the biggest challenges in web development is keeping your page's CRP as minimal as possible. This is your best bet to ensure a good page load time and to achieve a better Speed Index. In the next sections of this article, we will discuss some ways to minimize the CRP.
 
 For more information about the CRP, check out [Patrick Sexton's article](https://www.feedthebot.com/pagespeed/critical-render-path.html) and the thorough [Ilya Grigorik's Website Performance Optimization course at Udacity](https://www.udacity.com/course/website-performance-optimization--ud884).
 
-In order to discuss what is accounted for the **critical** content of the page, I would like to present you some concepts:
+In order to discuss what is accounted for in the **critical** content of the page, I would like to present to you some concepts:
 
 ### 1. Above the fold vs Below the fold
 
