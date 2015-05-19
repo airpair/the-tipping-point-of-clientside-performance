@@ -8,7 +8,7 @@ The good news is that optimizing such scenarios is not rocket science. All you n
 
 ## The Critical Rendering Path
 
-Putting it simply, the Critical Rendering Path (or **CRP**) is the sequence of steps the browser takes to render the critical content of a webpage (we will go through the definition of critical content soon). In other terms, the CRP is the browser's own workflow to process all the critical HTML, CSS, JavaScript, images, and media content.
+Putting it simply, the Critical Rendering Path (or **CRP**) is the sequence of steps the browser takes to render the critical content of a webpage (we will go through what is critical content soon). In other terms, the CRP is the browser's own workflow to process all the critical HTML, CSS, JavaScript, images, and media content.
 
 One of the biggest challenges in web development is keeping your page's CRP as minimal as possible. This is your best bet to ensure a good page load time and to achieve a better Speed Index. In the next sections of this article, we will discuss some ways to minimize the CRP.
 
