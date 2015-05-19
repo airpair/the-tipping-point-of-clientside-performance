@@ -14,7 +14,7 @@ One of the biggest challenges in web development is keeping your page's CRP as m
 
 For more information about the CRP, check out [Patrick Sexton's article](https://www.feedthebot.com/pagespeed/critical-render-path.html) and the thorough [Ilya Grigorik's Website Performance Optimization course at Udacity](https://www.udacity.com/course/website-performance-optimization--ud884).
 
-In order to discuss what is accounted for in the **critical** content of the page, I would like to present to you some concepts:
+In order to discuss what is accounted for as the **critical content** of the page, I would like to present to you some concepts:
 
 ### 1. Above the fold vs Below the fold
 
