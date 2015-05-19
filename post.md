@@ -88,7 +88,9 @@ P.S.: If you are developing a responsive page, big gains can be leveraged if you
  
  > **Now, add a JavaScript listener after the DOM is ready that will render the feature on the client-side.**
 
-For instance: your page might have some section for user comments that you don't want to be indexed by search engine bots. Instead of including the HTML comments on the first page response, you may render them on the client-side to save on the page size. In order to do this, you may embed a JSON array with the comments data on the page content, under a ```<script id="commentsData" type="application/json">``` tag. This technique is also known as JSON bootstrapping.
+For instance: your page might have some section for user comments that you don't want to be indexed by search engine bots. Instead of including the HTML comments on the first page response, you may render them on the client-side to save on the page size. In order to do this, you first need to have a JSON array with the comments data needed to render them on the client-side.
+
+One way to do this is to embed a JSON array with the comments data on the page content, under a ```<script id="commentsData" type="application/json">``` tag. This technique is also known as JSON bootstrapping.
 
 Alternatively, this JSON array may be obtained from an asynchronous call to the server, if you don't want to bootstrap the JSON on the first page response. Keep in mind though, that an extra roundtrip to the server during the page load may increase your total load time.
 
