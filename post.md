@@ -98,6 +98,6 @@ Now, you just need to provide a JavaScript listener that, once the DOM is ready,
 
 ## Be a savvy front-end developer
 
-This is just the very beginning of CRP optimization. There is a lot to go through from here, and many other optimization techniques may also positively affect the CRP. I have previously written about the [mind-boggling JavaScript modules](https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules), which can give your page a boost when well structured, specially if your previous code was based on global variables.
+This is just the very beginning of CRP optimization. There is a lot to go through from here, and many other optimization techniques may also positively affect the CRP. I have previously written about the [mind-boggling JavaScript modules](https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules), which can relieve the CRP when well structured, specially if your previous code was all based on global variables.
 
 Hopefully, now you will be able to tell if the next feature asked for by your business is going to impact your page's CRP, and if so, you should be able to set up an action plan for the sake of your page performance!
