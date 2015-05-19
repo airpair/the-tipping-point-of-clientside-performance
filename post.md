@@ -76,7 +76,7 @@ For instance: let's say your page has a vertical banner on the left side, but on
 
 ### 2. Lazy-loading features
 
- > **Search for lazy-loadable features on the page load, and replace their immediate loading with hooks/listeners that will load them upon condition.**
+ > **Search for lazy-loadable features on the page load, and replace their immediate loading with JavaScript listeners that will load them upon condition.**
 
 For instance: your page might have an overlay that is only displayed after the user presses a button. Instead of downloading the HTML, CSS, or JavaScript for the overlay on the page-load time, you can just add a click listener on this button that will download the HTML, CSS, or JavaScript for the feature only after the user presses this button for the first time. This can be accomplished in a few different ways, but I particularly recommend [Webpack](http://webpack.github.io).
 
