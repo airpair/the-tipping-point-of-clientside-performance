@@ -72,7 +72,7 @@ In order to optimize the CRP, think about this: everything that isn't critical e
 
  > **Search for less important HTML/images/media content which is above the fold and move it to below the fold.**
 
-For instance: let's say your page has a vertical banner on the left side, but only half of it appears above the fold, which makes it somewhat useless for the above the fold experience. By pushing it a little bit down (so that none of it appears above the fold for a typical 1024x768 resolution) you will have effectively moved it to below the fold, which means the browser no longer needs to wait for this image download to be finished in order to render the above the fold content. The browser will still download it, but not during the above the fold rendering. This means that now the critical content of the page isn't depending on that banner anymore.
+For instance: let's say your page has a vertical banner on the left side, but only half of it appears above the fold, which makes it somewhat useless for the above the fold experience. By pushing it down a little bit (so that none of it appears above the fold for a typical 1024x768 resolution) you will have effectively moved it to below the fold, which means the browser no longer needs to wait for this image download to be finished in order to render the above the fold content. The browser will still download it, but not during the above the fold rendering. This means that now the critical content of the page isn't depending on that banner anymore.
 
 ### 2. Lazy-loading features
 
