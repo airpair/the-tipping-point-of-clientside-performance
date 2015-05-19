@@ -20,7 +20,7 @@ In order to discuss what is accounted for as the **critical content** of the pag
 
 Think about a newspaper, when you have just bought it. It comes folded, and the most important headlines appear above the fold. This is meant to catch your attention before you open the newspaper, in order to convince you to buy it.
 
-In this way, the content above the fold has the absolutely necessary information to be advertised about today's edition, which is defined as critical. Everything else will appear the below the fold and will only be revealed after you have bought and opened the newspaper.
+In this way, the content above the fold has the absolutely necessary information to be advertised about today's edition, which is defined as critical. Everything else will appear then below the fold and will only be revealed after you have bought and opened the newspaper.
 
 Web pages are no different. The fold is now the bottom line of your browser. When you open a page, the page fold will separate the content that gets displayed right away, from the content below which would require scrolling down in order to be revealed.
 
