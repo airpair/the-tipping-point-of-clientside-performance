@@ -80,7 +80,7 @@ For instance: let's say your page has a vertical banner on the left side, but on
 
 For instance: your page might have an overlay that is only displayed after the user presses a button. Instead of downloading the HTML, CSS, or JavaScript for the overlay on the page-load time, you can just add a click listener on this button that will download the HTML, CSS, or JavaScript for the feature only after the user presses this button for the first time. This can be accomplished in a few different ways, but I particularly recommend [Webpack](http://webpack.github.io).
 
-P.S.: If you are developing a responsive page, this step is very important since your code should suppress any feature that isn't compatible with the user's device. By suppressing, I mean not downloading the HTML, CSS, and JavaScript for the feature - "simply hiding the extra content" will still download and parse it.
+P.S.: If you are developing a responsive page, big gains can be leveraged if you suppress from the page load any feature that isn't compatible with the user's device. By suppressing, I mean not downloading the HTML, CSS, and JavaScript for the feature - "simply hiding the extra content" will still download and parse it.
 
 ### 3. Rendering non-SEO-critical content on the client-side
 
